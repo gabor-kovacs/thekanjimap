@@ -1,0 +1,793 @@
+node {
+      content: data(id);
+      text-valign: center;
+      color: white;
+      text-outline-width: 2;
+      background-color: #1a1a1a;
+      text-outline-color: #1a1a1a;
+    }
+
+edge {
+    label: data(label);
+    color: white;
+    text-outline-color: #1a1a1a;
+    text-outline-width: 3;
+    curve-style: bezier;   
+    target-arrow-shape: triangle;
+    target-arrow-color: #1a1a1a;
+    line-color: #1a1a1a;
+    width: 2;
+
+}
+
+
+node.unique {
+  content: ; 
+  background-width : 70%;
+  background-height : 70%;
+  height: 28;
+  width: 28;
+  background-color: white;
+  border-color: #1a1a1a;
+  border-width: 2;
+}
+
+
+
+
+node[grade = "教育漢字 (kyōiku kanji)"] {
+border-color: #afafaf;
+border-width: 2;
+}
+
+
+node[grade = "常用漢字 (jōyō kanji)"] {
+border-color: #afafaf;
+border-width: 2;
+}
+
+
+
+
+
+
+
+
+node[id = "A-GT-K06065"] {
+background-image: /resources/uniqueglyphs/A-GT-K06065.svg;
+}
+
+node[id = "A-U-i002+34BC"] {
+background-image: /resources/uniqueglyphs/A-U-i002+34BC.svg;
+}
+
+node[id = "AJ1-02453"] {
+background-image: /resources/uniqueglyphs/AJ1-02453.svg;
+}
+
+node[id = "AJ1-04109"] {
+background-image: /resources/uniqueglyphs/AJ1-04109.svg;
+}
+
+node[id = "AJ1-05368"] {
+background-image: /resources/uniqueglyphs/AJ1-05368.svg;
+}
+
+node[id = "AJ1-13834"] {
+background-image: /resources/uniqueglyphs/AJ1-13834.svg;
+}
+
+node[id = "AJ1-13852"] {
+background-image: /resources/uniqueglyphs/AJ1-13852.svg;
+}
+
+node[id = "AJ1-14094"] {
+background-image: /resources/uniqueglyphs/AJ1-14094.svg;
+}
+
+node[id = "AJ1-14496"] {
+background-image: /resources/uniqueglyphs/AJ1-14496.svg;
+}
+
+node[id = "AJ1-17729"] {
+background-image: /resources/uniqueglyphs/AJ1-17729.svg;
+}
+
+node[id = "C1-4464"] {
+background-image: /resources/uniqueglyphs/C1-4464.svg;
+}
+
+node[id = "C4-2263"] {
+background-image: /resources/uniqueglyphs/C4-2263.svg;
+}
+
+node[id = "CDP-8665"] {
+background-image: /resources/uniqueglyphs/CDP-8665.svg;
+}
+
+node[id = "CDP-88A5"] {
+background-image: /resources/uniqueglyphs/CDP-88A5.svg;
+}
+
+node[id = "CDP-88A6"] {
+background-image: /resources/uniqueglyphs/CDP-88A6.svg;
+}
+
+node[id = "CDP-88C8"] {
+background-image: /resources/uniqueglyphs/CDP-88C8.svg;
+}
+
+node[id = "CDP-88D2"] {
+background-image: /resources/uniqueglyphs/CDP-88D2.svg;
+}
+
+node[id = "CDP-88D4"] {
+background-image: /resources/uniqueglyphs/CDP-88D4.svg;
+}
+
+node[id = "CDP-88F1"] {
+background-image: /resources/uniqueglyphs/CDP-88F1.svg;
+}
+
+node[id = "CDP-8958"] {
+background-image: /resources/uniqueglyphs/CDP-8958.svg;
+}
+
+node[id = "CDP-895F"] {
+background-image: /resources/uniqueglyphs/CDP-895F.svg;
+}
+
+node[id = "CDP-8965"] {
+background-image: /resources/uniqueglyphs/CDP-8965.svg;
+}
+
+node[id = "CDP-8968"] {
+background-image: /resources/uniqueglyphs/CDP-8968.svg;
+}
+
+node[id = "CDP-8971"] {
+background-image: /resources/uniqueglyphs/CDP-8971.svg;
+}
+
+node[id = "CDP-8974"] {
+background-image: /resources/uniqueglyphs/CDP-8974.svg;
+}
+
+node[id = "CDP-897D"] {
+background-image: /resources/uniqueglyphs/CDP-897D.svg;
+}
+
+node[id = "CDP-89A6"] {
+background-image: /resources/uniqueglyphs/CDP-89A6.svg;
+}
+
+node[id = "CDP-89AB"] {
+background-image: /resources/uniqueglyphs/CDP-89AB.svg;
+}
+
+node[id = "CDP-89AE"] {
+background-image: /resources/uniqueglyphs/CDP-89AE.svg;
+}
+
+node[id = "CDP-89BD"] {
+background-image: /resources/uniqueglyphs/CDP-89BD.svg;
+}
+
+node[id = "CDP-89BE"] {
+background-image: /resources/uniqueglyphs/CDP-89BE.svg;
+}
+
+node[id = "CDP-89C6"] {
+background-image: /resources/uniqueglyphs/CDP-89C6.svg;
+}
+
+node[id = "CDP-89CC"] {
+background-image: /resources/uniqueglyphs/CDP-89CC.svg;
+}
+
+node[id = "CDP-89CE"] {
+background-image: /resources/uniqueglyphs/CDP-89CE.svg;
+}
+
+node[id = "CDP-89D7"] {
+background-image: /resources/uniqueglyphs/CDP-89D7.svg;
+}
+
+node[id = "CDP-89DD"] {
+background-image: /resources/uniqueglyphs/CDP-89DD.svg;
+}
+
+node[id = "CDP-89DF"] {
+background-image: /resources/uniqueglyphs/CDP-89DF.svg;
+}
+
+node[id = "CDP-89E0"] {
+background-image: /resources/uniqueglyphs/CDP-89E0.svg;
+}
+
+node[id = "CDP-89E5"] {
+background-image: /resources/uniqueglyphs/CDP-89E5.svg;
+}
+
+node[id = "CDP-89EB"] {
+background-image: /resources/uniqueglyphs/CDP-89EB.svg;
+}
+
+node[id = "CDP-89EC"] {
+background-image: /resources/uniqueglyphs/CDP-89EC.svg;
+}
+
+node[id = "CDP-89ED"] {
+background-image: /resources/uniqueglyphs/CDP-89ED.svg;
+}
+
+node[id = "CDP-89EF"] {
+background-image: /resources/uniqueglyphs/CDP-89EF.svg;
+}
+
+node[id = "CDP-89F3"] {
+background-image: /resources/uniqueglyphs/CDP-89F3.svg;
+}
+
+node[id = "CDP-89F5"] {
+background-image: /resources/uniqueglyphs/CDP-89F5.svg;
+}
+
+node[id = "CDP-89FA"] {
+background-image: /resources/uniqueglyphs/CDP-89FA.svg;
+}
+
+node[id = "CDP-89FD"] {
+background-image: /resources/uniqueglyphs/CDP-89FD.svg;
+}
+
+node[id = "CDP-8A49"] {
+background-image: /resources/uniqueglyphs/CDP-8A49.svg;
+}
+
+node[id = "CDP-8A6D"] {
+background-image: /resources/uniqueglyphs/CDP-8A6D.svg;
+}
+
+node[id = "CDP-8ACD"] {
+background-image: /resources/uniqueglyphs/CDP-8ACD.svg;
+}
+
+node[id = "CDP-8AFC"] {
+background-image: /resources/uniqueglyphs/CDP-8AFC.svg;
+}
+
+node[id = "CDP-8B63"] {
+background-image: /resources/uniqueglyphs/CDP-8B63.svg;
+}
+
+node[id = "CDP-8B67"] {
+background-image: /resources/uniqueglyphs/CDP-8B67.svg;
+}
+
+node[id = "CDP-8B72"] {
+background-image: /resources/uniqueglyphs/CDP-8B72.svg;
+}
+
+node[id = "CDP-8B7A"] {
+background-image: /resources/uniqueglyphs/CDP-8B7A.svg;
+}
+
+node[id = "CDP-8B7B"] {
+background-image: /resources/uniqueglyphs/CDP-8B7B.svg;
+}
+
+node[id = "CDP-8B7C"] {
+background-image: /resources/uniqueglyphs/CDP-8B7C.svg;
+}
+
+node[id = "CDP-8BA4"] {
+background-image: /resources/uniqueglyphs/CDP-8BA4.svg;
+}
+
+node[id = "CDP-8BA5"] {
+background-image: /resources/uniqueglyphs/CDP-8BA5.svg;
+}
+
+node[id = "CDP-8BA8"] {
+background-image: /resources/uniqueglyphs/CDP-8BA8.svg;
+}
+
+node[id = "CDP-8BA9"] {
+background-image: /resources/uniqueglyphs/CDP-8BA9.svg;
+}
+
+node[id = "CDP-8BAE"] {
+background-image: /resources/uniqueglyphs/CDP-8BAE.svg;
+}
+
+node[id = "CDP-8BB5"] {
+background-image: /resources/uniqueglyphs/CDP-8BB5.svg;
+}
+
+node[id = "CDP-8BB7"] {
+background-image: /resources/uniqueglyphs/CDP-8BB7.svg;
+}
+
+node[id = "CDP-8BB8"] {
+background-image: /resources/uniqueglyphs/CDP-8BB8.svg;
+}
+
+node[id = "CDP-8BBE"] {
+background-image: /resources/uniqueglyphs/CDP-8BBE.svg;
+}
+
+node[id = "CDP-8BBF"] {
+background-image: /resources/uniqueglyphs/CDP-8BBF.svg;
+}
+
+node[id = "CDP-8BC0"] {
+background-image: /resources/uniqueglyphs/CDP-8BC0.svg;
+}
+
+node[id = "CDP-8BC4"] {
+background-image: /resources/uniqueglyphs/CDP-8BC4.svg;
+}
+
+node[id = "CDP-8BC5"] {
+background-image: /resources/uniqueglyphs/CDP-8BC5.svg;
+}
+
+node[id = "CDP-8BC7"] {
+background-image: /resources/uniqueglyphs/CDP-8BC7.svg;
+}
+
+node[id = "CDP-8BCB"] {
+background-image: /resources/uniqueglyphs/CDP-8BCB.svg;
+}
+
+node[id = "CDP-8BCE"] {
+background-image: /resources/uniqueglyphs/CDP-8BCE.svg;
+}
+
+node[id = "CDP-8BD2"] {
+background-image: /resources/uniqueglyphs/CDP-8BD2.svg;
+}
+
+node[id = "CDP-8BD3"] {
+background-image: /resources/uniqueglyphs/CDP-8BD3.svg;
+}
+
+node[id = "CDP-8BD6"] {
+background-image: /resources/uniqueglyphs/CDP-8BD6.svg;
+}
+
+node[id = "CDP-8BD8"] {
+background-image: /resources/uniqueglyphs/CDP-8BD8.svg;
+}
+
+node[id = "CDP-8BD9"] {
+background-image: /resources/uniqueglyphs/CDP-8BD9.svg;
+}
+
+node[id = "CDP-8BDC"] {
+background-image: /resources/uniqueglyphs/CDP-8BDC.svg;
+}
+
+node[id = "CDP-8BE2"] {
+background-image: /resources/uniqueglyphs/CDP-8BE2.svg;
+}
+
+node[id = "CDP-8BE8"] {
+background-image: /resources/uniqueglyphs/CDP-8BE8.svg;
+}
+
+node[id = "CDP-8BE9"] {
+background-image: /resources/uniqueglyphs/CDP-8BE9.svg;
+}
+
+node[id = "CDP-8BEA"] {
+background-image: /resources/uniqueglyphs/CDP-8BEA.svg;
+}
+
+node[id = "CDP-8BEC"] {
+background-image: /resources/uniqueglyphs/CDP-8BEC.svg;
+}
+
+node[id = "CDP-8BF1"] {
+background-image: /resources/uniqueglyphs/CDP-8BF1.svg;
+}
+
+node[id = "CDP-8BF8"] {
+background-image: /resources/uniqueglyphs/CDP-8BF8.svg;
+}
+
+node[id = "CDP-8BFE"] {
+background-image: /resources/uniqueglyphs/CDP-8BFE.svg;
+}
+
+node[id = "CDP-8C40"] {
+background-image: /resources/uniqueglyphs/CDP-8C40.svg;
+}
+
+node[id = "CDP-8C46"] {
+background-image: /resources/uniqueglyphs/CDP-8C46.svg;
+}
+
+node[id = "CDP-8C4A"] {
+background-image: /resources/uniqueglyphs/CDP-8C4A.svg;
+}
+
+node[id = "CDP-8C4F"] {
+background-image: /resources/uniqueglyphs/CDP-8C4F.svg;
+}
+
+node[id = "CDP-8C52"] {
+background-image: /resources/uniqueglyphs/CDP-8C52.svg;
+}
+
+node[id = "CDP-8C58"] {
+background-image: /resources/uniqueglyphs/CDP-8C58.svg;
+}
+
+node[id = "CDP-8C5B"] {
+background-image: /resources/uniqueglyphs/CDP-8C5B.svg;
+}
+
+node[id = "CDP-8C64"] {
+background-image: /resources/uniqueglyphs/CDP-8C64.svg;
+}
+
+node[id = "CDP-8C66"] {
+background-image: /resources/uniqueglyphs/CDP-8C66.svg;
+}
+
+node[id = "CDP-8C68"] {
+background-image: /resources/uniqueglyphs/CDP-8C68.svg;
+}
+
+node[id = "CDP-8C69"] {
+background-image: /resources/uniqueglyphs/CDP-8C69.svg;
+}
+
+node[id = "CDP-8C6A"] {
+background-image: /resources/uniqueglyphs/CDP-8C6A.svg;
+}
+
+node[id = "CDP-8C6D"] {
+background-image: /resources/uniqueglyphs/CDP-8C6D.svg;
+}
+
+node[id = "CDP-8C79"] {
+background-image: /resources/uniqueglyphs/CDP-8C79.svg;
+}
+
+node[id = "CDP-8C7A"] {
+background-image: /resources/uniqueglyphs/CDP-8C7A.svg;
+}
+
+node[id = "CDP-8CA3"] {
+background-image: /resources/uniqueglyphs/CDP-8CA3.svg;
+}
+
+node[id = "CDP-8CA9"] {
+background-image: /resources/uniqueglyphs/CDP-8CA9.svg;
+}
+
+node[id = "CDP-8CAC"] {
+background-image: /resources/uniqueglyphs/CDP-8CAC.svg;
+}
+
+node[id = "CDP-8CB5"] {
+background-image: /resources/uniqueglyphs/CDP-8CB5.svg;
+}
+
+node[id = "CDP-8CB8"] {
+background-image: /resources/uniqueglyphs/CDP-8CB8.svg;
+}
+
+node[id = "CDP-8CBB"] {
+background-image: /resources/uniqueglyphs/CDP-8CBB.svg;
+}
+
+node[id = "CDP-8CBD"] {
+background-image: /resources/uniqueglyphs/CDP-8CBD.svg;
+}
+
+node[id = "CDP-8CBF"] {
+background-image: /resources/uniqueglyphs/CDP-8CBF.svg;
+}
+
+node[id = "CDP-8CC1"] {
+background-image: /resources/uniqueglyphs/CDP-8CC1.svg;
+}
+
+node[id = "CDP-8CC6"] {
+background-image: /resources/uniqueglyphs/CDP-8CC6.svg;
+}
+
+node[id = "CDP-8CC7"] {
+background-image: /resources/uniqueglyphs/CDP-8CC7.svg;
+}
+
+node[id = "CDP-8CC9"] {
+background-image: /resources/uniqueglyphs/CDP-8CC9.svg;
+}
+
+node[id = "CDP-8CCE"] {
+background-image: /resources/uniqueglyphs/CDP-8CCE.svg;
+}
+
+node[id = "CDP-8CD4"] {
+background-image: /resources/uniqueglyphs/CDP-8CD4.svg;
+}
+
+node[id = "CDP-8CDE"] {
+background-image: /resources/uniqueglyphs/CDP-8CDE.svg;
+}
+
+node[id = "CDP-8CE0"] {
+background-image: /resources/uniqueglyphs/CDP-8CE0.svg;
+}
+
+node[id = "CDP-8CE4"] {
+background-image: /resources/uniqueglyphs/CDP-8CE4.svg;
+}
+
+node[id = "CDP-8CE5"] {
+background-image: /resources/uniqueglyphs/CDP-8CE5.svg;
+}
+
+node[id = "CDP-8CE6"] {
+background-image: /resources/uniqueglyphs/CDP-8CE6.svg;
+}
+
+node[id = "CDP-8CE7"] {
+background-image: /resources/uniqueglyphs/CDP-8CE7.svg;
+}
+
+node[id = "CDP-8CEC"] {
+background-image: /resources/uniqueglyphs/CDP-8CEC.svg;
+}
+
+node[id = "CDP-8CF0"] {
+background-image: /resources/uniqueglyphs/CDP-8CF0.svg;
+}
+
+node[id = "CDP-8CF4"] {
+background-image: /resources/uniqueglyphs/CDP-8CF4.svg;
+}
+
+node[id = "CDP-8CFA"] {
+background-image: /resources/uniqueglyphs/CDP-8CFA.svg;
+}
+
+node[id = "CDP-8CFD"] {
+background-image: /resources/uniqueglyphs/CDP-8CFD.svg;
+}
+
+node[id = "CDP-8CFE"] {
+background-image: /resources/uniqueglyphs/CDP-8CFE.svg;
+}
+
+node[id = "CDP-8D40"] {
+background-image: /resources/uniqueglyphs/CDP-8D40.svg;
+}
+
+node[id = "CDP-8D41"] {
+background-image: /resources/uniqueglyphs/CDP-8D41.svg;
+}
+
+node[id = "CDP-8D49"] {
+background-image: /resources/uniqueglyphs/CDP-8D49.svg;
+}
+
+node[id = "CDP-8D4F"] {
+background-image: /resources/uniqueglyphs/CDP-8D4F.svg;
+}
+
+node[id = "CDP-8D52"] {
+background-image: /resources/uniqueglyphs/CDP-8D52.svg;
+}
+
+node[id = "CDP-8D56"] {
+background-image: /resources/uniqueglyphs/CDP-8D56.svg;
+}
+
+node[id = "CDP-8D57"] {
+background-image: /resources/uniqueglyphs/CDP-8D57.svg;
+}
+
+node[id = "CDP-8D5B"] {
+background-image: /resources/uniqueglyphs/CDP-8D5B.svg;
+}
+
+node[id = "CDP-8D5C"] {
+background-image: /resources/uniqueglyphs/CDP-8D5C.svg;
+}
+
+node[id = "CDP-8D5E"] {
+background-image: /resources/uniqueglyphs/CDP-8D5E.svg;
+}
+
+node[id = "CDP-8D61"] {
+background-image: /resources/uniqueglyphs/CDP-8D61.svg;
+}
+
+node[id = "CDP-8D62"] {
+background-image: /resources/uniqueglyphs/CDP-8D62.svg;
+}
+
+node[id = "CDP-8D65"] {
+background-image: /resources/uniqueglyphs/CDP-8D65.svg;
+}
+
+node[id = "CDP-8D67"] {
+background-image: /resources/uniqueglyphs/CDP-8D67.svg;
+}
+
+node[id = "CDP-8D6F"] {
+background-image: /resources/uniqueglyphs/CDP-8D6F.svg;
+}
+
+node[id = "CDP-8D70"] {
+background-image: /resources/uniqueglyphs/CDP-8D70.svg;
+}
+
+node[id = "CDP-8D71"] {
+background-image: /resources/uniqueglyphs/CDP-8D71.svg;
+}
+
+node[id = "CDP-8D74"] {
+background-image: /resources/uniqueglyphs/CDP-8D74.svg;
+}
+
+node[id = "CDP-8D76"] {
+background-image: /resources/uniqueglyphs/CDP-8D76.svg;
+}
+
+node[id = "CDP-8D78"] {
+background-image: /resources/uniqueglyphs/CDP-8D78.svg;
+}
+
+node[id = "CDP-8D7D"] {
+background-image: /resources/uniqueglyphs/CDP-8D7D.svg;
+}
+
+node[id = "CDP-8D7E"] {
+background-image: /resources/uniqueglyphs/CDP-8D7E.svg;
+}
+
+node[id = "CDP-8DA8"] {
+background-image: /resources/uniqueglyphs/CDP-8DA8.svg;
+}
+
+node[id = "CDP-8DAF"] {
+background-image: /resources/uniqueglyphs/CDP-8DAF.svg;
+}
+
+node[id = "CDP-8DB2"] {
+background-image: /resources/uniqueglyphs/CDP-8DB2.svg;
+}
+
+node[id = "CDP-8DB5"] {
+background-image: /resources/uniqueglyphs/CDP-8DB5.svg;
+}
+
+node[id = "CDP-8DB6"] {
+background-image: /resources/uniqueglyphs/CDP-8DB6.svg;
+}
+
+node[id = "CDP-8DB7"] {
+background-image: /resources/uniqueglyphs/CDP-8DB7.svg;
+}
+
+node[id = "CDP-8DBB"] {
+background-image: /resources/uniqueglyphs/CDP-8DBB.svg;
+}
+
+node[id = "CDP-8DBC"] {
+background-image: /resources/uniqueglyphs/CDP-8DBC.svg;
+}
+
+node[id = "CDP-8DBF"] {
+background-image: /resources/uniqueglyphs/CDP-8DBF.svg;
+}
+
+node[id = "CDP-8DC1"] {
+background-image: /resources/uniqueglyphs/CDP-8DC1.svg;
+}
+
+node[id = "CDP-8DC6"] {
+background-image: /resources/uniqueglyphs/CDP-8DC6.svg;
+}
+
+node[id = "CDP-8DCD"] {
+background-image: /resources/uniqueglyphs/CDP-8DCD.svg;
+}
+
+node[id = "CDP-8DD0"] {
+background-image: /resources/uniqueglyphs/CDP-8DD0.svg;
+}
+
+node[id = "CDP-8DD8"] {
+background-image: /resources/uniqueglyphs/CDP-8DD8.svg;
+}
+
+node[id = "CDP-8DDC"] {
+background-image: /resources/uniqueglyphs/CDP-8DDC.svg;
+}
+
+node[id = "CDP-8DE3"] {
+background-image: /resources/uniqueglyphs/CDP-8DE3.svg;
+}
+
+node[id = "CDP-v002-8D7C"] {
+background-image: /resources/uniqueglyphs/CDP-v002-8D7C.svg;
+}
+
+node[id = "G0-6566"] {
+background-image: /resources/uniqueglyphs/G0-6566.svg;
+}
+
+node[id = "GT-00145"] {
+background-image: /resources/uniqueglyphs/GT-00145.svg;
+}
+
+node[id = "GT-00154"] {
+background-image: /resources/uniqueglyphs/GT-00154.svg;
+}
+
+node[id = "GT-36228"] {
+background-image: /resources/uniqueglyphs/GT-36228.svg;
+}
+
+node[id = "GT-36329"] {
+background-image: /resources/uniqueglyphs/GT-36329.svg;
+}
+
+node[id = "GT-K00059"] {
+background-image: /resources/uniqueglyphs/GT-K00059.svg;
+}
+
+node[id = "GT-K00264"] {
+background-image: /resources/uniqueglyphs/GT-K00264.svg;
+}
+
+node[id = "GT-K01085"] {
+background-image: /resources/uniqueglyphs/GT-K01085.svg;
+}
+
+node[id = "GT-K01090"] {
+background-image: /resources/uniqueglyphs/GT-K01090.svg;
+}
+
+node[id = "GT-K01443"] {
+background-image: /resources/uniqueglyphs/GT-K01443.svg;
+}
+
+node[id = "GT-K01770"] {
+background-image: /resources/uniqueglyphs/GT-K01770.svg;
+}
+
+node[id = "GT-K02033"] {
+background-image: /resources/uniqueglyphs/GT-K02033.svg;
+}
+
+node[id = "GT-K03318"] {
+background-image: /resources/uniqueglyphs/GT-K03318.svg;
+}
+
+node[id = "GT-K05014"] {
+background-image: /resources/uniqueglyphs/GT-K05014.svg;
+}
+
+node[id = "HD-TK-01032130"] {
+background-image: /resources/uniqueglyphs/HD-TK-01032130.svg;
+}
+
+node[id = "MJ013489"] {
+background-image: /resources/uniqueglyphs/MJ013489.svg;
+}
+
+node[id = "MJ058978"] {
+background-image: /resources/uniqueglyphs/MJ058978.svg;
+}
+
+
+

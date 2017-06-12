@@ -1,0 +1,1722 @@
+[
+
+{
+"index": "0",
+"radical": " ",
+"strokes": " ",
+"en": " ",
+"jap": " "
+},
+
+{
+"index": "1",
+"radical": "一",
+"strokes": "1",
+"en": "one",
+"jap": "いち"
+},
+
+{
+"index": "2",
+"radical": "丨",
+"strokes": "1",
+"en": "line",
+"jap": "ぼう"
+},
+
+{
+"index": "3",
+"radical": "丶",
+"strokes": "1",
+"en": "dot",
+"jap": "てん"
+},
+
+{
+"index": "4",
+"radical": "丿",
+"strokes": "1",
+"en": "slash",
+"jap": "の"
+},
+
+{
+"index": "5",
+"radical": "乙(⺄,乚)",
+"strokes": "1",
+"en": "second",
+"jap": "おつ"
+},
+
+{
+"index": "6",
+"radical": "亅",
+"strokes": "1",
+"en": "hook",
+"jap": "はねぼう"
+},
+
+{
+"index": "7",
+"radical": "二",
+"strokes": "2",
+"en": "two",
+"jap": "ふた"
+},
+
+{
+"index": "8",
+"radical": "亠",
+"strokes": "2",
+"en": "lid",
+"jap": "なべぶた"
+},
+
+{
+"index": "9",
+"radical": "人(亻,𠆢)",
+"strokes": "2",
+"en": "man",
+"jap": "ひと"
+},
+
+{
+"index": "10",
+"radical": "儿",
+"strokes": "2",
+"en": "son, legs",
+"jap": "にんにょう"
+},
+
+{
+"index": "11",
+"radical": "入",
+"strokes": "2",
+"en": "enter",
+"jap": "いる"
+},
+
+{
+"index": "12",
+"radical": "八",
+"strokes": "2",
+"en": "eight",
+"jap": "はちがしら"
+},
+
+{
+"index": "13",
+"radical": "冂",
+"strokes": "2",
+"en": "(downbox)",
+"jap": "まきがまえ"
+},
+
+{
+"index": "14",
+"radical": "冖",
+"strokes": "2",
+"en": "cover",
+"jap": "わかんむり"
+},
+
+{
+"index": "15",
+"radical": "冫",
+"strokes": "2",
+"en": "ice",
+"jap": "にすい"
+},
+
+{
+"index": "16",
+"radical": "几",
+"strokes": "2",
+"en": "table",
+"jap": "つくえ"
+},
+
+{
+"index": "17",
+"radical": "凵",
+"strokes": "2",
+"en": "(openbox)",
+"jap": "うけばこ"
+},
+
+{
+"index": "18",
+"radical": "刀(刂)",
+"strokes": "2",
+"en": "knife",
+"jap": "かたな"
+},
+
+{
+"index": "19",
+"radical": "力",
+"strokes": "2",
+"en": "power",
+"jap": "ちから"
+},
+
+{
+"index": "20",
+"radical": "勹",
+"strokes": "2",
+"en": "wrap",
+"jap": "つつみがまえ"
+},
+
+{
+"index": "21",
+"radical": "匕",
+"strokes": "2",
+"en": "spoon",
+"jap": "さじのひ"
+},
+
+{
+"index": "22",
+"radical": "匚",
+"strokes": "2",
+"en": "(rightopenbox)",
+"jap": "はこがまえ"
+},
+
+{
+"index": "23",
+"radical": "匸",
+"strokes": "2",
+"en": "hiding enclosure",
+"jap": "かくしがまえ"
+},
+
+{
+"index": "24",
+"radical": "十",
+"strokes": "2",
+"en": "ten",
+"jap": "じゅう"
+},
+
+{
+"index": "25",
+"radical": "卜",
+"strokes": "2",
+"en": "divination",
+"jap": "ぼくのと"
+},
+
+{
+"index": "26",
+"radical": "卩(㔾)",
+"strokes": "2",
+"en": "seal (device)",
+"jap": "ふしづくり"
+},
+
+{
+"index": "27",
+"radical": "厂",
+"strokes": "2",
+"en": "cliff",
+"jap": "がんだれ"
+},
+
+{
+"index": "28",
+"radical": "厶",
+"strokes": "2",
+"en": "private",
+"jap": "む"
+},
+
+{
+"index": "29",
+"radical": "又",
+"strokes": "2",
+"en": "again",
+"jap": "また"
+},
+
+{
+"index": "30",
+"radical": "口",
+"strokes": "3",
+"en": "mouth",
+"jap": "くち"
+},
+
+{
+"index": "31",
+"radical": "囗",
+"strokes": "3",
+"en": "enclosure",
+"jap": "くにがまえ"
+},
+
+{
+"index": "32",
+"radical": "土",
+"strokes": "3",
+"en": "earth",
+"jap": "つち"
+},
+
+{
+"index": "33",
+"radical": "士",
+"strokes": "3",
+"en": "scholar",
+"jap": "さむらい"
+},
+
+{
+"index": "34",
+"radical": "夂",
+"strokes": "3",
+"en": "go",
+"jap": "ふゆがしら"
+},
+
+{
+"index": "35",
+"radical": "夊",
+"strokes": "3",
+"en": "go slowly",
+"jap": "すいにょう"
+},
+
+{
+"index": "36",
+"radical": "夕",
+"strokes": "3",
+"en": "evening",
+"jap": "ゆうべ"
+},
+
+{
+"index": "37",
+"radical": "大",
+"strokes": "3",
+"en": "big",
+"jap": "だい"
+},
+
+{
+"index": "38",
+"radical": "女",
+"strokes": "3",
+"en": "woman",
+"jap": "おんな"
+},
+
+{
+"index": "39",
+"radical": "子",
+"strokes": "3",
+"en": "child",
+"jap": "こ"
+},
+
+{
+"index": "40",
+"radical": "宀",
+"strokes": "3",
+"en": "roof",
+"jap": "うかんむり"
+},
+
+{
+"index": "41",
+"radical": "寸",
+"strokes": "3",
+"en": "inch",
+"jap": "すん"
+},
+
+{
+"index": "42",
+"radical": "小(⺌,⺍)",
+"strokes": "3",
+"en": "small",
+"jap": "しょう"
+},
+
+{
+"index": "43",
+"radical": "尢(尣)",
+"strokes": "3",
+"en": "lame",
+"jap": "まげあし"
+},
+
+{
+"index": "44",
+"radical": "尸",
+"strokes": "3",
+"en": "corpse",
+"jap": "しかばね"
+},
+
+{
+"index": "45",
+"radical": "屮",
+"strokes": "3",
+"en": "sprout",
+"jap": "てつ"
+},
+
+{
+"index": "46",
+"radical": "山",
+"strokes": "3",
+"en": "mountain",
+"jap": "やま"
+},
+
+{
+"index": "47",
+"radical": "巛(川,巜)",
+"strokes": "3",
+"en": "river",
+"jap": "まがりがわ"
+},
+
+{
+"index": "48",
+"radical": "工",
+"strokes": "3",
+"en": "work",
+"jap": "たくみ"
+},
+
+{
+"index": "49",
+"radical": "己",
+"strokes": "3",
+"en": "oneself",
+"jap": "おのれ"
+},
+
+{
+"index": "50",
+"radical": "巾",
+"strokes": "3",
+"en": "turban",
+"jap": "はば"
+},
+
+{
+"index": "51",
+"radical": "干",
+"strokes": "3",
+"en": "dry",
+"jap": "ほす"
+},
+
+{
+"index": "52",
+"radical": "幺",
+"strokes": "3",
+"en": "short thread",
+"jap": "いとがしら"
+},
+
+{
+"index": "53",
+"radical": "广",
+"strokes": "3",
+"en": "(dotted cliff)",
+"jap": "まだれ"
+},
+
+{
+"index": "54",
+"radical": "廴",
+"strokes": "3",
+"en": "long stride",
+"jap": "えんにょう"
+},
+
+{
+"index": "55",
+"radical": "廾",
+"strokes": "3",
+"en": "(two hands)",
+"jap": "にじゅうあし"
+},
+
+{
+"index": "56",
+"radical": "弋",
+"strokes": "3",
+"en": "shoot",
+"jap": "しきがまえ"
+},
+
+{
+"index": "57",
+"radical": "弓",
+"strokes": "3",
+"en": "bow",
+"jap": "ゆみ"
+},
+
+{
+"index": "58",
+"radical": "彐(彑)",
+"strokes": "3",
+"en": "snout",
+"jap": "けいがしら"
+},
+
+{
+"index": "59",
+"radical": "彡",
+"strokes": "3",
+"en": "bristle",
+"jap": "さんづくり"
+},
+
+{
+"index": "60",
+"radical": "彳",
+"strokes": "3",
+"en": "step",
+"jap": "ぎょうにんべん"
+},
+
+{
+"index": "61",
+"radical": "心(忄,⺗)",
+"strokes": "4",
+"en": "heart",
+"jap": "りっしんべん"
+},
+
+{
+"index": "62",
+"radical": "戈",
+"strokes": "4",
+"en": "halberd",
+"jap": "かのほこ"
+},
+
+{
+"index": "63",
+"radical": "戶(户,戸)",
+"strokes": "4",
+"en": "door",
+"jap": "と"
+},
+
+{
+"index": "64",
+"radical": "手(扌,龵)",
+"strokes": "4",
+"en": "hand",
+"jap": "て"
+},
+
+{
+"index": "65",
+"radical": "支",
+"strokes": "4",
+"en": "branch",
+"jap": "しにょう"
+},
+
+{
+"index": "66",
+"radical": "攴(攵)",
+"strokes": "4",
+"en": "rap, tap",
+"jap": "ぼくづくり"
+},
+
+{
+"index": "67",
+"radical": "文",
+"strokes": "4",
+"en": "script",
+"jap": "ぶん"
+},
+
+{
+"index": "68",
+"radical": "斗",
+"strokes": "4",
+"en": "dipper",
+"jap": "とます"
+},
+
+{
+"index": "69",
+"radical": "斤",
+"strokes": "4",
+"en": "axe",
+"jap": "おの"
+},
+
+{
+"index": "70",
+"radical": "方",
+"strokes": "4",
+"en": "square",
+"jap": "ほう"
+},
+
+{
+"index": "71",
+"radical": "无(旡)",
+"strokes": "4",
+"en": "not",
+"jap": "なし"
+},
+
+{
+"index": "72",
+"radical": "日",
+"strokes": "4",
+"en": "sun",
+"jap": "にち"
+},
+
+{
+"index": "73",
+"radical": "曰",
+"strokes": "4",
+"en": "say",
+"jap": "いわく"
+},
+
+{
+"index": "74",
+"radical": "月",
+"strokes": "4",
+"en": "moon",
+"jap": "つき"
+},
+
+{
+"index": "75",
+"radical": "木",
+"strokes": "4",
+"en": "tree",
+"jap": "き"
+},
+
+{
+"index": "76",
+"radical": "欠",
+"strokes": "4",
+"en": "lack",
+"jap": "あくび"
+},
+
+{
+"index": "77",
+"radical": "止",
+"strokes": "4",
+"en": "stop",
+"jap": "とめる"
+},
+
+{
+"index": "78",
+"radical": "歹(歺)",
+"strokes": "4",
+"en": "death",
+"jap": "がつ"
+},
+
+{
+"index": "79",
+"radical": "殳",
+"strokes": "4",
+"en": "weapon",
+"jap": "ほこつくり"
+},
+
+{
+"index": "80",
+"radical": "毋(母)",
+"strokes": "4",
+"en": "do not",
+"jap": "なかれ"
+},
+
+{
+"index": "81",
+"radical": "比",
+"strokes": "4",
+"en": "compare",
+"jap": "くらべる"
+},
+
+{
+"index": "82",
+"radical": "毛",
+"strokes": "4",
+"en": "fur",
+"jap": "け"
+},
+
+{
+"index": "83",
+"radical": "氏",
+"strokes": "4",
+"en": "clan",
+"jap": "うじ"
+},
+
+{
+"index": "84",
+"radical": "气",
+"strokes": "4",
+"en": "steam",
+"jap": "きがまえ"
+},
+
+{
+"index": "85",
+"radical": "水(氺,氵)",
+"strokes": "4",
+"en": "water",
+"jap": "みず"
+},
+
+{
+"index": "86",
+"radical": "火(灬)",
+"strokes": "4",
+"en": "fire",
+"jap": "ひ"
+},
+
+{
+"index": "87",
+"radical": "爪(爫)",
+"strokes": "4",
+"en": "claw",
+"jap": "つめ"
+},
+
+{
+"index": "88",
+"radical": "父",
+"strokes": "4",
+"en": "father",
+"jap": "ちち"
+},
+
+{
+"index": "89",
+"radical": "爻",
+"strokes": "4",
+"en": "(double x)",
+"jap": "こう"
+},
+
+{
+"index": "90",
+"radical": "爿(丬)",
+"strokes": "4",
+"en": "(half tree trunk)",
+"jap": "しょうへん"
+},
+
+{
+"index": "91",
+"radical": "片",
+"strokes": "4",
+"en": "slice",
+"jap": "かた"
+},
+
+{
+"index": "92",
+"radical": "牙",
+"strokes": "4",
+"en": "fang",
+"jap": "きば"
+},
+
+{
+"index": "93",
+"radical": "牛(牜,⺧)",
+"strokes": "4",
+"en": "cow",
+"jap": "うし"
+},
+
+{
+"index": "94",
+"radical": "犬(犭)",
+"strokes": "4",
+"en": "dog",
+"jap": "いぬ"
+},
+
+{
+"index": "95",
+"radical": "玄",
+"strokes": "5",
+"en": "profound",
+"jap": "げん"
+},
+
+{
+"index": "96",
+"radical": "玉(玊,王)",
+"strokes": "5",
+"en": "jade",
+"jap": "たま"
+},
+
+{
+"index": "97",
+"radical": "瓜",
+"strokes": "5",
+"en": "melon",
+"jap": "うり"
+},
+
+{
+"index": "98",
+"radical": "瓦",
+"strokes": "5",
+"en": "tile",
+"jap": "かわら"
+},
+
+{
+"index": "99",
+"radical": "甘",
+"strokes": "5",
+"en": "sweet",
+"jap": "あまい"
+},
+
+{
+"index": "100",
+"radical": "生",
+"strokes": "5",
+"en": "life",
+"jap": "うまれる"
+},
+
+{
+"index": "101",
+"radical": "用",
+"strokes": "5",
+"en": "use",
+"jap": "もちいる"
+},
+
+{
+"index": "102",
+"radical": "田",
+"strokes": "5",
+"en": "field",
+"jap": "た"
+},
+
+{
+"index": "103",
+"radical": "疋(⺪)",
+"strokes": "5",
+"en": "bolt of cloth",
+"jap": "ひき"
+},
+
+{
+"index": "104",
+"radical": "疒",
+"strokes": "5",
+"en": "sickness",
+"jap": "やまいだれ"
+},
+
+{
+"index": "105",
+"radical": "癶",
+"strokes": "5",
+"en": "dotted tent, legs",
+"jap": "はつがしら"
+},
+
+{
+"index": "106",
+"radical": "白",
+"strokes": "5",
+"en": "white",
+"jap": "しろ"
+},
+
+{
+"index": "107",
+"radical": "皮",
+"strokes": "5",
+"en": "skin",
+"jap": "けがわ"
+},
+
+{
+"index": "108",
+"radical": "皿",
+"strokes": "5",
+"en": "dish",
+"jap": "さら"
+},
+
+{
+"index": "109",
+"radical": "目",
+"strokes": "5",
+"en": "eye",
+"jap": "め"
+},
+
+{
+"index": "110",
+"radical": "矛",
+"strokes": "5",
+"en": "spear",
+"jap": "むのほこ"
+},
+
+{
+"index": "111",
+"radical": "矢",
+"strokes": "5",
+"en": "arrow",
+"jap": "や"
+},
+
+{
+"index": "112",
+"radical": "石",
+"strokes": "5",
+"en": "stone",
+"jap": "いし"
+},
+
+{
+"index": "113",
+"radical": "示(礻)",
+"strokes": "5",
+"en": "spirit",
+"jap": "しめす"
+},
+
+{
+"index": "114",
+"radical": "禸",
+"strokes": "5",
+"en": "track",
+"jap": "ぐうのあし"
+},
+
+{
+"index": "115",
+"radical": "禾",
+"strokes": "5",
+"en": "grain",
+"jap": "のぎ"
+},
+
+{
+"index": "116",
+"radical": "穴",
+"strokes": "5",
+"en": "cave",
+"jap": "あな"
+},
+
+{
+"index": "117",
+"radical": "立",
+"strokes": "5",
+"en": "stand",
+"jap": "たつ"
+},
+
+{
+"index": "118",
+"radical": "竹(⺮)",
+"strokes": "6",
+"en": "bamboo",
+"jap": "たけ"
+},
+
+{
+"index": "119",
+"radical": "米",
+"strokes": "6",
+"en": "rice",
+"jap": "こめ"
+},
+
+{
+"index": "120",
+"radical": "糸(糹)",
+"strokes": "6",
+"en": "silk",
+"jap": "いと"
+},
+
+{
+"index": "121",
+"radical": "缶",
+"strokes": "6",
+"en": "jar",
+"jap": "ほとぎ"
+},
+
+{
+"index": "122",
+"radical": "网(罒,罓,⺳)",
+"strokes": "6",
+"en": "net",
+"jap": "あみがしら"
+},
+
+{
+"index": "123",
+"radical": "羊(⺶,⺷)",
+"strokes": "6",
+"en": "sheep",
+"jap": "ひつじ"
+},
+
+{
+"index": "124",
+"radical": "羽",
+"strokes": "6",
+"en": "feather",
+"jap": "はね"
+},
+
+{
+"index": "125",
+"radical": "老(耂)",
+"strokes": "6",
+"en": "old",
+"jap": "おい"
+},
+
+{
+"index": "126",
+"radical": "而",
+"strokes": "6",
+"en": "and",
+"jap": "しかして"
+},
+
+{
+"index": "127",
+"radical": "耒",
+"strokes": "6",
+"en": "plow",
+"jap": "らいすき"
+},
+
+{
+"index": "128",
+"radical": "耳",
+"strokes": "6",
+"en": "ear",
+"jap": "みみ"
+},
+
+{
+"index": "129",
+"radical": "聿(⺻)",
+"strokes": "6",
+"en": "brush",
+"jap": "ふでづくり"
+},
+
+{
+"index": "130",
+"radical": "肉(⺼)",
+"strokes": "6",
+"en": "meat",
+"jap": "にく"
+},
+
+{
+"index": "131",
+"radical": "臣",
+"strokes": "6",
+"en": "minister",
+"jap": "しん"
+},
+
+{
+"index": "132",
+"radical": "自",
+"strokes": "6",
+"en": "self",
+"jap": "みずから"
+},
+
+{
+"index": "133",
+"radical": "至",
+"strokes": "6",
+"en": "arrive",
+"jap": "いたる"
+},
+
+{
+"index": "134",
+"radical": "臼",
+"strokes": "6",
+"en": "mortar",
+"jap": "うす"
+},
+
+{
+"index": "135",
+"radical": "舌",
+"strokes": "6",
+"en": "tongue",
+"jap": "した"
+},
+
+{
+"index": "136",
+"radical": "舛",
+"strokes": "6",
+"en": "oppose",
+"jap": "ます"
+},
+
+{
+"index": "137",
+"radical": "舟",
+"strokes": "6",
+"en": "boat",
+"jap": "ふね"
+},
+
+{
+"index": "138",
+"radical": "艮",
+"strokes": "6",
+"en": "stopping",
+"jap": "こん"
+},
+
+{
+"index": "139",
+"radical": "色",
+"strokes": "6",
+"en": "color",
+"jap": "いろ"
+},
+
+{
+"index": "140",
+"radical": "艸(艹)",
+"strokes": "6",
+"en": "grass",
+"jap": "くさ"
+},
+
+{
+"index": "141",
+"radical": "虍",
+"strokes": "6",
+"en": "tiger",
+"jap": "とらかんむり"
+},
+
+{
+"index": "142",
+"radical": "虫",
+"strokes": "6",
+"en": "insect",
+"jap": "むし"
+},
+
+{
+"index": "143",
+"radical": "血",
+"strokes": "6",
+"en": "blood",
+"jap": "ち"
+},
+
+{
+"index": "144",
+"radical": "行",
+"strokes": "6",
+"en": "walk enclosure",
+"jap": "ぎょう"
+},
+
+{
+"index": "145",
+"radical": "衣(衤)",
+"strokes": "6",
+"en": "clothes",
+"jap": "ころも"
+},
+
+{
+"index": "146",
+"radical": "襾(西,覀)",
+"strokes": "6",
+"en": "west",
+"jap": "にし"
+},
+
+{
+"index": "147",
+"radical": "見",
+"strokes": "7",
+"en": "see",
+"jap": "みる"
+},
+
+{
+"index": "148",
+"radical": "角",
+"strokes": "7",
+"en": "horn",
+"jap": "つの"
+},
+
+{
+"index": "149",
+"radical": "言(訁)",
+"strokes": "7",
+"en": "speech",
+"jap": "ことば"
+},
+
+{
+"index": "150",
+"radical": "谷",
+"strokes": "7",
+"en": "valley",
+"jap": "たに"
+},
+
+{
+"index": "151",
+"radical": "豆",
+"strokes": "7",
+"en": "bean",
+"jap": "まめ"
+},
+
+{
+"index": "152",
+"radical": "豕",
+"strokes": "7",
+"en": "pig",
+"jap": "いのこ"
+},
+
+{
+"index": "153",
+"radical": "豸",
+"strokes": "7",
+"en": "badger",
+"jap": "むじな"
+},
+
+{
+"index": "154",
+"radical": "貝",
+"strokes": "7",
+"en": "shell",
+"jap": "かい"
+},
+
+{
+"index": "155",
+"radical": "赤",
+"strokes": "7",
+"en": "red",
+"jap": "あか"
+},
+
+{
+"index": "156",
+"radical": "走(赱)",
+"strokes": "7",
+"en": "run",
+"jap": "はしる"
+},
+
+{
+"index": "157",
+"radical": "足(⻊)",
+"strokes": "7",
+"en": "foot",
+"jap": "あし"
+},
+
+{
+"index": "158",
+"radical": "身",
+"strokes": "7",
+"en": "body",
+"jap": "み"
+},
+
+{
+"index": "159",
+"radical": "車",
+"strokes": "7",
+"en": "cart",
+"jap": "くるま"
+},
+
+{
+"index": "160",
+"radical": "辛",
+"strokes": "7",
+"en": "bitter",
+"jap": "からい"
+},
+
+{
+"index": "161",
+"radical": "辰",
+"strokes": "7",
+"en": "morning",
+"jap": "しんのたつ"
+},
+
+{
+"index": "162",
+"radical": "辵(辶,⻌,⻍)",
+"strokes": "7",
+"en": "walk",
+"jap": "しんにょう"
+},
+
+{
+"index": "163",
+"radical": "邑(阝,⻏,⻖)",
+"strokes": "7",
+"en": "city",
+"jap": "むら"
+},
+
+{
+"index": "164",
+"radical": "酉",
+"strokes": "7",
+"en": "wine",
+"jap": "ひよみのとり"
+},
+
+{
+"index": "165",
+"radical": "釆",
+"strokes": "7",
+"en": "distinguish",
+"jap": "のごめ"
+},
+
+{
+"index": "166",
+"radical": "里",
+"strokes": "7",
+"en": "village",
+"jap": "さと"
+},
+
+{
+"index": "167",
+"radical": "金(釒)",
+"strokes": "8",
+"en": "gold",
+"jap": "かね"
+},
+
+{
+"index": "168",
+"radical": "長(镸)",
+"strokes": "8",
+"en": "long",
+"jap": "ながい"
+},
+
+{
+"index": "169",
+"radical": "門",
+"strokes": "8",
+"en": "gate",
+"jap": "もん"
+},
+
+{
+"index": "170",
+"radical": "阜(阝)",
+"strokes": "8",
+"en": "mound",
+"jap": "おか"
+},
+
+{
+"index": "171",
+"radical": "隶",
+"strokes": "8",
+"en": "slave",
+"jap": "れいづくり"
+},
+
+{
+"index": "172",
+"radical": "隹",
+"strokes": "8",
+"en": "short-tailed bird",
+"jap": "ふるとり"
+},
+
+{
+"index": "173",
+"radical": "雨",
+"strokes": "8",
+"en": "rain",
+"jap": "あめ"
+},
+
+{
+"index": "174",
+"radical": "青(靑)",
+"strokes": "8",
+"en": "blue",
+"jap": "あお"
+},
+
+{
+"index": "175",
+"radical": "非",
+"strokes": "8",
+"en": "wrong",
+"jap": "あらず"
+},
+
+{
+"index": "176",
+"radical": "面(靣)",
+"strokes": "9",
+"en": "face",
+"jap": "めん"
+},
+
+{
+"index": "177",
+"radical": "革",
+"strokes": "9",
+"en": "leather",
+"jap": "かくのかわ"
+},
+
+{
+"index": "178",
+"radical": "韋",
+"strokes": "9",
+"en": "tanned leather",
+"jap": "なめしがわ"
+},
+
+{
+"index": "179",
+"radical": "韭",
+"strokes": "9",
+"en": "leek",
+"jap": "にら"
+},
+
+{
+"index": "180",
+"radical": "音",
+"strokes": "9",
+"en": "sound",
+"jap": "おと"
+},
+
+{
+"index": "181",
+"radical": "頁",
+"strokes": "9",
+"en": "leaf",
+"jap": "おおがい"
+},
+
+{
+"index": "182",
+"radical": "風(𠘨)",
+"strokes": "9",
+"en": "wind",
+"jap": "かぜ"
+},
+
+{
+"index": "183",
+"radical": "飛",
+"strokes": "9",
+"en": "fly",
+"jap": "とぶ"
+},
+
+{
+"index": "184",
+"radical": "食(飠)",
+"strokes": "9",
+"en": "eat",
+"jap": "しょく"
+},
+
+{
+"index": "185",
+"radical": "首",
+"strokes": "9",
+"en": "head",
+"jap": "くび"
+},
+
+{
+"index": "186",
+"radical": "香",
+"strokes": "9",
+"en": "fragrant",
+"jap": "においこう"
+},
+
+{
+"index": "187",
+"radical": "馬",
+"strokes": "10",
+"en": "horse",
+"jap": "うま"
+},
+
+{
+"index": "188",
+"radical": "骨",
+"strokes": "10",
+"en": "bone",
+"jap": "ほね"
+},
+
+{
+"index": "189",
+"radical": "高(髙)",
+"strokes": "10",
+"en": "tall",
+"jap": "たかい"
+},
+
+{
+"index": "190",
+"radical": "髟",
+"strokes": "10",
+"en": "hair",
+"jap": "かみがしら"
+},
+
+{
+"index": "191",
+"radical": "鬥",
+"strokes": "10",
+"en": "fight",
+"jap": "とうがまえ"
+},
+
+{
+"index": "192",
+"radical": "鬯",
+"strokes": "10",
+"en": "sacrificial wine",
+"jap": "ちょう"
+},
+
+{
+"index": "193",
+"radical": "鬲",
+"strokes": "10",
+"en": "cauldron",
+"jap": "かなえ"
+},
+
+{
+"index": "194",
+"radical": "鬼",
+"strokes": "10",
+"en": "ghost",
+"jap": "おに"
+},
+
+{
+"index": "195",
+"radical": "魚",
+"strokes": "11",
+"en": "fish",
+"jap": "うお"
+},
+
+{
+"index": "196",
+"radical": "鳥",
+"strokes": "11",
+"en": "bird",
+"jap": "とり"
+},
+
+{
+"index": "197",
+"radical": "鹵",
+"strokes": "11",
+"en": "salt",
+"jap": "ろ"
+},
+
+{
+"index": "198",
+"radical": "鹿",
+"strokes": "11",
+"en": "deer",
+"jap": "しか"
+},
+
+{
+"index": "199",
+"radical": "麥",
+"strokes": "11",
+"en": "wheat",
+"jap": "むぎ"
+},
+
+{
+"index": "200",
+"radical": "麻",
+"strokes": "11",
+"en": "hemp",
+"jap": "あさ"
+},
+
+{
+"index": "201",
+"radical": "黃",
+"strokes": "12",
+"en": "yellow",
+"jap": "きいろ"
+},
+
+{
+"index": "202",
+"radical": "黍",
+"strokes": "12",
+"en": "millet",
+"jap": "きび"
+},
+
+{
+"index": "203",
+"radical": "黑",
+"strokes": "12",
+"en": "black",
+"jap": "くろ"
+},
+
+{
+"index": "204",
+"radical": "黹",
+"strokes": "12",
+"en": "embroidery",
+"jap": "ふつ"
+},
+
+{
+"index": "205",
+"radical": "黽",
+"strokes": "13",
+"en": "frog",
+"jap": "べん"
+},
+
+{
+"index": "206",
+"radical": "鼎",
+"strokes": "13",
+"en": "tripod",
+"jap": "かなえ"
+},
+
+{
+"index": "207",
+"radical": "鼓",
+"strokes": "13",
+"en": "drum",
+"jap": "つづみ"
+},
+
+{
+"index": "208",
+"radical": "鼠",
+"strokes": "13",
+"en": "rat",
+"jap": "ねずみ"
+},
+
+{
+"index": "209",
+"radical": "鼻",
+"strokes": "14",
+"en": "nose",
+"jap": "はな"
+},
+
+{
+"index": "210",
+"radical": "齊",
+"strokes": "14",
+"en": "even",
+"jap": "せい"
+},
+
+{
+"index": "211",
+"radical": "齒",
+"strokes": "15",
+"en": "tooth",
+"jap": "は"
+},
+
+{
+"index": "212",
+"radical": "龍",
+"strokes": "16",
+"en": "dragon",
+"jap": "りゅう"
+},
+
+{
+"index": "213",
+"radical": "龜",
+"strokes": "16",
+"en": "turtle",
+"jap": "かめ"
+},
+
+{
+"index": "214",
+"radical": "龠",
+"strokes": "17",
+"en": "flute",
+"jap": "やく"
+}
+]
