@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<!-- ©Copyright The Kanji Map 2017 by Gabor Kovacs - released under the Creative Commons Attribution-Share Alike 3.0 license. -->
+<head>
+<meta name="author" content="Gabor Kovacs" />
+<meta name="copyright" content="Gabor Kovacs" />
+<meta name="description" content="[About The Kanji Map]" />
+<meta charset=utf-8 />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<meta name="keywords" content="Kanji, Map, Graph, Decomposition, Japanese">
+<!-- ****** faviconit.com favicons ****** -->
+<link rel="shortcut icon" href="./resources/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="./resources/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="./resources/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="./resources/images/favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./resources/images/favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="./resources/images/favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./resources/images/favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="./resources/images/favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./resources/images/favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./resources/images/favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./resources/images/favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./resources/images/favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./resources/images/favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./resources/images/favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./resources/images/favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./resources/images/favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="./resources/images/favicon/favicon-144.png">
+<meta name="msapplication-config" content="./resources/images/favicon/browserconfig.xml">
+<!-- ****** faviconit.com favicons ****** -->
+<link href="./resources/css/about.css" rel="stylesheet" />
+<title>The Kanji Map - About</title>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('#nav-icon').click(function(){
+$(this).toggleClass('open');
+$(nav).toggleClass('open');
+});
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<a href="./index.html" id="logo"></a>
+<a href="./index.html" id="title">The Kanji Map</a>
+<nav id="nav">
+<div id="nav-icon">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<ul>
+<li><a href="./index.html" id="home">Home</a></li>
+<li><a href="./about.html" id="about">About</a></li>
+<li><a href="./donate.html" id="donate">Donate</a></li>
+</ul>
+</nav>
+</header>
+<div id="container">
+
+<h3>Welcome to The Kanji Map</h3>
+<p>
+This site was created to give a visual map of the connections between kanjis and to help Japanese learners study more efficiently.
+The kanji decomposition is represented by a graph with detailed kanji and radical information.<br>
+If you would like to help improving this site, make sure to support it <a class= "inline" href="./donate.html">here</a>.
+</p>
+<h3>How to use this site</h3>
+<h4>Graph</h4>
+<p>
+Kanjis are represented with nodes and the connection between kanji elements with edges.
+Click on visible nodes or use the search field to change the selected node.
+Hover your mouse over the selected node (or click the lightbulb icon in mobile view) to highlight parent nodes with the same onyomi.
+</p>
+<p>   <img src="./resources/images/reset.svg" style="height: 14px;" >  : Fit graph to window</p>
+<p><i>Node styles</i></p>
+<p> &nbsp; <img src="./resources/images/mainnode.svg" style="width:14px; height: 14px;" >  : Currently selected kanji</p>
+<p> &nbsp; <img src="./resources/images/joyonode.svg" style="width:14px; height: 14px;" >  : Jōyō kanji</p>
+<p> &nbsp; <img src="./resources/images/rarenode.svg" style="width:14px; height: 14px;" >  : Not jōyō (jinmeiyō or hyōgai) kanji</p>
+<p> &nbsp; <img src="./resources/images/uniquenode.svg" style="width:14px; height: 14px;" >  : Unique glyph</p>
+<p> &nbsp; <img src="./resources/images/onyominode.svg" style="width:14px; height: 14px;" >  : Kanjis with same onyomi</p>
+<h4>Info sidebar</h4>
+<p><i>Search field</i> : Type a single kanji character to select it</p>
+<p><i>Character &amp; Stroke Order</i> : The kanji character and stroke order animation</p>
+<p><i>Meaning</i> : Meaning of the kanji</p>
+<p><i>Reading</i></p>
+<ul class="normal">
+<li class="normal"><i>Kunyomi</i> : Japanese reading of the kanji</li>
+<li class="normal"><i>Onnyomi</i> : Chinese (Sino-Japanese) reading of the kanji</li>
+<li class="normal"><i>Nanori</i> : Reading used in Japanese names</li>
+</ul>
+<p><i>Kanji information</i></p>
+<ul class="normal">
+<li class="normal"><i>Stroke Count</i> : The total stroke-count of the kanji</li>
+<li class="normal" ><i>Grade</i> : Grade of the kanji</li>
+<ul class="normal" style="list-style-type:circle">
+<li class="normal"><i>教育漢字 (kyōiku kanji)</i> : Kanji taught in elementary school</li>
+<li class="normal"><i>常用漢字 (jōyō kanji)</i> : Kanji taught in junior high school</li>
+<li class="normal"><i>人名用漢字 (jinmeiyō kanji)</i> : Kanji used in Japanese names</li>
+<li class="normal"><i>表外漢字 (hyōgai kanji)</i> : Additional kanji</li>
+</ul>
+<li class="normal"><i>Occurrence</i> : Frequency-of-use ranking of the top 2500 kanjis found in newspapers</li>
+</ul>
+<p><i>Radical information</i></p>
+<ul class="normal">
+<li class="normal"><i>Radical</i> : Radical and variations</li>
+<li class="normal"><i>Stroke Count</i> : The total stroke-count of the radical</li>
+<li class="normal"><i>Meaning</i> : Meaning of the radical</li>
+<li class="normal"><i>Reading</i> : Janapese reading of the radical</li>
+</ul>
+<p><i>Related words</i> : The most common words containing the kanji with reading and meaning</p>
+<h4>Mobile view</h4>
+<p>   <img src="./resources/images/downarrow.svg" style="height: 14px;" >  : Move to the info section</p>
+<p>   <img src="./resources/images/uparrow.svg" style="height: 14px;" >  : Move to the graph</p>
+<p>   <img src="./resources/images/lightbulbgrey.svg" style="width: 24px;" >  : Highlight same-onyomi nodes</p>
+<h3>Credits</h3>
+<h4>Cytoscape.js</h4>
+<p>The Kanji Map was created by using <a class= "inline" HREF="http://js.cytoscape.org/">cytoscape.js</a></p> 
+<p>cytoscape/cytoscape.js is licensed under the <a class= "inline" HREF="https://opensource.org/licenses/MIT">MIT license</a></p>
+<h4>KanjiVG</h4>
+<p>Stroke order animations were created by <a class= "inline" HREF="http://kanjivg.tagaini.net/">KanjiVG</a></p>   
+<p>KanjiVG is copyright © 2009-2015 Ulrich Apel and released under the <a class= "inline" HREF="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0</a> license</p> 
+<h4>JMdict and KANJIDIC2</h4>
+<p>The Kanji Map uses the JMdict and KANJIDIC dictionary files, property of the Electronic Dictionary Research and Development Group</p>
+<p>This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the license provisions of the Electronic Dictionaries Research Group. See <a class= "inline" HREF="http://www.csse.monash.edu.au/~jwb/edict.html">http://www.csse.monash.edu.au/~jwb/edict.html </a> and <a class= "inline" HREF="http://www.edrdg.org/">http://www.edrdg.org/ </a></p>
+<h4>CHISE-IDS database</h4>
+<p>The Kanji Map uses the Ideographic Description Sequence found in the <a class= "inline" HREF="http://www.chise.org/ids/index.html">CHISE project</a></p>
+<p>The CHISE-IDS database is published under the <a class= "inline" HREF="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a></p>
+<h3>License</h3>
+<p>©Copyright The Kanji Map 2017 by Gabor Kovacs - released under the <a class= "inline" HREF="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0</a> license.</p>
+<div>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">
+<img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" alt="" title="">
+</a>
+</div>
+<h3>Contact</h3>
+<p>If you would like to report a bug, request features or just say thanks you can contact me at</p><a class= "inline" href="mailto:thekanjimap@gmail.com">thekanjimap@gmail.com</a>
+</div>
+<footer>
+©Copyright The Kanji Map 2017
+</footer>
+</div>
+</body>
+</html>

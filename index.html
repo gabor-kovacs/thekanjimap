@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="Gabor Kovacs" />
+<meta name="copyright" content="https://creativecommons.org/licenses/by-sa/3.0/" />
+<meta name="description" content="[The Kanji Map, Japanese Kanji Information, Kanji Decomposition]" />
+<meta charset=utf-8 />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<meta name="keywords" content="Kanji, Map, Graph, Decomposition, Japanese">
+<!-- ****** faviconit.com favicons ****** -->
+<link rel="shortcut icon" href="./resources/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="./resources/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="./resources/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="./resources/images/favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./resources/images/favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="./resources/images/favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./resources/images/favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="./resources/images/favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./resources/images/favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./resources/images/favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./resources/images/favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./resources/images/favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./resources/images/favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./resources/images/favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./resources/images/favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./resources/images/favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="./resources/images/favicon/favicon-144.png">
+<meta name="msapplication-config" content="./resources/images/favicon/browserconfig.xml">
+<!-- ****** faviconit.com favicons ****** -->
+<link href="./resources/css/index.css" rel="stylesheet" />
+<title>The Kanji Map - Home</title>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.7.16/cytoscape.js"></script>  <!-- cytoscape.js -->
+<script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>
+<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.1.2/cytoscape-dagre.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bluebird/1.2.2/bluebird.min.js"></script>
+<script src="./resources/js/code.js"></script>
+</head>
+<body>
+<div id="loader-wrapper">
+<div id="loader"></div>
+<img id="loadingtext" src="./resources/images/loadingtext.png" alt="Loading..." style="width:165px; height: 50px;">
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+</div>
+
+<header>
+<a href="./index.html" id="logo"></a>
+<a href="./index.html" id="title">The Kanji Map</a>
+<nav id="nav">
+<div id="nav-icon">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<ul>
+<li><a href="./index.html" id="home">Home</a></li>
+<li><a href="./about.html" id="about">About</a></li>
+<li><a href="./donate.html" id="donate">Donate</a></li>
+</ul>
+</nav>
+</header>
+<input  id="infobutton" type="button"  onclick="scroll2info()"  value="Kanji data"/>
+<input  id="graphbutton" type="button"  onclick="scroll2top()"  vaslue="Kanji map"/>
+<input  id="highlightbutton" type="button"  onclick="hilite()" value="Highlight"/>
+<input  id="resetbutton" type="button" onclick="resetview()" value="Reset"/>
+<a class="up" >
+<object data="./resources/images/uparrow.svg" type="image/svg+xml" class="mailicon" >
+</object>
+</a>
+<a class="down" >
+<object data="./resources/images/downarrow.svg" type="image/svg+xml" class="mailicon" >
+</object>
+</a>
+<a class="reset" >
+<object data="./resources/images/reset.svg" type="image/svg+xml" class="mailicon" >
+</object>
+</a>
+<!-- Lightbulb images from Simpleicon http://simpleicon.com/ -->
+<a id="highlightgrey" >
+<object data="./resources/images/lightbulbgrey.svg" type="image/svg+xml" class="mailicon">
+</object>
+</a>
+<a id="highlightblue" >
+<object data="./resources/images/lightbulbblue.svg" type="image/svg+xml" class="mailicon">
+</object>
+</a>
+<div id="container">
+<div id="cy"></div> 
+<div id="info"> 
+<div id="infowrapper">
+<div id ="contentwrapper">
+<form id="searchBarForm" action="javascript:void(0);">
+<input name="searchfield" type="text" id="searchBar" onkeypress="Enterhit(event)" placeholder="Search..." maxlength="10" autocomplete="off"  onMouseDown="searchBarActive()" onBlur="searchBarInactive()" />
+</form>
+<h3 class="infoheader">Character &amp; Stroke Order</h3>
+<h1 class="literal"><b class="KanjiLiteral"></b>
+<img id="KanjiAnimation" src="" width="80px" />
+</h1> 
+<h3 class="infoheader">Meaning</h3>
+<p id="meaning" ></p> 
+<h3 class="infoheader">Reading</h3>
+<p id="kunyomi" ></p>
+<p id="onyomi" ></p>
+<p id="nanori" ></p>
+<h3 class="infoheader">Kanji information</h3>
+<p id="stroke" ></p>
+<p id="grade" ></p>
+<p id="freq" ></p>
+<h3 class="infoheader">Radical information</h3>
+<p id="radical" ></p>
+<p id="radicalstroke" ></p>
+<p id="radicalmeaning" ></p>
+<p id="radicalkun" ></p>
+<h3 class="infoheader">Related Words</h3>
+<p id="jukugo1" ></p>
+<p id="jukugo2" ></p>
+<p id="jukugo3" ></p>
+<p id="jukugo4" ></p>
+<p id="jukugo5" ></p>
+<p id="jukugo6" ></p>
+<p id="jukugo7" ></p>
+<p id="jukugo8" ></p>
+<p id="jukugo9" ></p>
+<p id="jukugo10" ></p>
+<div id="footerwrapper"> 
+<footer>
+©Copyright The Kanji Map 2017
+</footer>
+</div>
+</div>
+</div>
+</div> 
+</div>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-100572130-1', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>
