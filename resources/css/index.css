@@ -340,6 +340,31 @@ padding: 0;
 margin: 16px;
 z-index: 99;
 }
+#undobutton { 
+border: 0;
+width: 40px;
+height: 40px;
+padding: 0px;
+visibility: visible;
+opacity: 0;
+position: absolute;
+top: 124px;
+right: 320px;
+padding: 0;
+margin: 16px;
+z-index: 100;
+}
+a.undo {
+visibility: visible;
+position: absolute;
+width: 40px;
+height: 40px;
+top: 124px;
+right: 320px;
+padding: 0;
+margin: 16px;
+z-index: 99;
+}
 #infobutton { 
 border: 0;
 width: 40px;
@@ -498,6 +523,14 @@ right: 0;
 a.reset {
 top: 64px;
 right: 0;
+}
+#undobutton { 
+top: 124px;
+right: 0px;
+}
+a.undo {
+top: 124px;
+right: 0px;
 }
 a.up {
 top: 100vh;
