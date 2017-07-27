@@ -4,6 +4,7 @@ $(this).toggleClass('open');
 $(nav).toggleClass('open');
 });
 });
+var recentlist = [];
 var radicals;
 var jukugos;
 highlightflag = false;
@@ -127,11 +128,11 @@ return 2;
 else { 
 return 1;
 }
-},levelWidth: function( nodes ){return 1;}
+},levelWidth: function( nodes ){return 1;}, animate: true, animationDuration: 500
 });
 }
 else{
-nodestoreset.layout({name: 'dagre', rankDir: 'LR', animate: false, animationDuration: 500});
+nodestoreset.layout({name: 'dagre', rankDir: 'LR', animate: true, animationDuration: 500});
 }
 }
 }
@@ -339,7 +340,14 @@ SetDefaultStyle(allElements[i]);
 }
 cy.elements().removeClass('mainNode');
 resethilite();
+
+
+
 var newnode = cy.$(selectorsting);
+
+// var newnode = document.getElementById(selectorsting);
+
+
 if (newnode.isNode()) {
 UpdateKanjiInfo(newnode);
 if (newnode.hasClass("unique")) {  
@@ -352,12 +360,7 @@ newnode.addClass('mainNode');
 var activenodes = newnode.predecessors().add(newnode).add(newnode.outgoers());
 allElements.hide();
 activenodes.show();
-if (newnode.predecessors().length == 0){     
-activenodes.layout({name: 'concentric', concentric: function( node ){return node.degree();},levelWidth: function( nodes ){return 2;}});
-}
-else{
-activenodes.layout({name: 'dagre', rankDir: 'LR', animate: false, animationDuration: 500});
-}
+resetview();
 if(!newnode.hasClass('unique')){     
 SetMainNodeStyle(newnode);  
 }
@@ -371,6 +374,12 @@ $(this).hide();
 $('#freq').html("Occurrence - " + newnode.data('freq'));
 $('#stroke').html("Stroke Count - " + newnode.data('stroke'));
 $('#grade').html("Grade - " + newnode.data('grade'));
+if (recentlist.slice(-1).pop() != newnode.data('id')) {
+recentlist.push(newnode.data('id'));
+}
+if (recentlist.length > 99) {
+recentlist.shift();
+}
 }
 else {
 $('.KanjiLiteral').html("");
@@ -391,6 +400,14 @@ document.getElementById('jukugo' + r).innerHTML = "";
 }        
 }
 }
+}
+function undo(){
+if (recentlist.length > 1) {
+recentlist.pop();
+}
+searchedKanji = recentlist.slice(-1).pop();
+recentlist.slice(0, -1);
+SelectSearched();
 }
 $(function(){
 document.getElementById("searchBar").addEventListener("keyup", function(event) {
@@ -458,7 +475,7 @@ starternode.addClass('mainNode');
 SetMainNodeStyle(starternode);
 UpdateKanjiInfo(starternode);
 initnodes.show();
-initnodes.layout({name: 'dagre', rankDir: 'LR', animate: false, animationDuration: 500});
+initnodes.layout({name: 'dagre', rankDir: 'LR', animate: true, animationDuration: 500});
 for (var i = 0; i < allElements.length; i++) {
 if (allElements[i].isNode()){ 
 if(allElements[i].data('unique') == 1){
@@ -471,6 +488,7 @@ $('#stroke').html("Stroke Count - " + starternode.data('stroke'));
 $('#grade').html("Grade - " + starternode.data('grade'));
 });
 cy.on('tap', 'node', function(e){
+
 document.getElementById("searchBar").value = "";  
 var allElements = cy.elements();
 resethilite();
@@ -485,10 +503,21 @@ newnode.addClass('mainNode');
 var activenodes = newnode.predecessors().add(newnode).add(newnode.outgoers());
 allElements.hide();
 activenodes.show();
+
+if (recentlist.slice(-1).pop() != newnode.data('id')) {
+
+recentlist.push(newnode.data('id'));
+}
+
+if (recentlist.length > 99) {
+recentlist.shift();
+}
+
 if (newnode.predecessors().length == 0){    
 var counter = 0;
 activenodes.layout({
 name: 'concentric', padding: 10, concentric: function( node ){
+
 if (node == newnode){
 return 8;
 }
@@ -519,11 +548,11 @@ return 2;
 else { 
 return 1;
 }
-},levelWidth: function( nodes ){return 1;}
+},levelWidth: function( nodes ){return 1;}, animate: true, animationDuration: 500
 });
 }
 else{
-activenodes.layout({name: 'dagre', rankDir: 'LR', animate: false, animationDuration: 500});
+activenodes.layout({name: 'dagre', rankDir: 'LR', animate: true, animationDuration: 500});
 }
 if (e.cyTarget.hasClass("unique")) {
 $('.KanjiLiteral').html(" ");
