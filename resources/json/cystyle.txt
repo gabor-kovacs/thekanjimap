@@ -51,6 +51,324 @@ border-width: 2;
 
 
 
+node[id = "充"] {
+background-image: /resources/uniqueglyphs/充.svg;
+}
+
+node[id = "𠀁"] {
+background-image: /resources/uniqueglyphs/𠀁.svg;
+}
+
+
+
+node[id = "𠀐"] {
+background-image: /resources/uniqueglyphs/𠀐.svg;
+}
+
+node[id = "𠂋"] {
+background-image: /resources/uniqueglyphs/𠂋.svg;
+}
+
+node[id = "𠂑"] {
+background-image: /resources/uniqueglyphs/𠂑.svg;
+}
+
+
+node[id = "𠃜"] {
+background-image: /resources/uniqueglyphs/𠃜.svg;
+}
+
+
+node[id = "𠅃"] {
+background-image: /resources/uniqueglyphs/𠅃.svg;
+}
+
+
+node[id = "𠌵"] {
+background-image: /resources/uniqueglyphs/𠌵.svg;
+}
+
+
+node[id = "𠔼"] {
+background-image: /resources/uniqueglyphs/𠔼.svg;
+}
+
+
+node[id = "𠕁"] {
+background-image: /resources/uniqueglyphs/𠕁.svg;
+}
+
+
+node[id = "𠘧"] {
+background-image: /resources/uniqueglyphs/𠘧.svg;
+}
+
+
+node[id = "𠤕"] {
+background-image: /resources/uniqueglyphs/𠤕.svg;
+}
+
+
+node[id = "𠦂"] {
+background-image: /resources/uniqueglyphs/𠦂.svg;
+}
+
+
+node[id = "𠧗"] {
+background-image: /resources/uniqueglyphs/𠧗.svg;
+}
+
+
+node[id = "𠩵"] {
+background-image: /resources/uniqueglyphs/𠩵.svg;
+}
+
+
+node[id = "𠬶"] {
+background-image: /resources/uniqueglyphs/𠬶.svg;
+}
+
+
+node[id = "𠮛"] {
+background-image: /resources/uniqueglyphs/𠮛.svg;
+}
+
+
+node[id = "𠮠"] {
+background-image: /resources/uniqueglyphs/𠮠.svg;
+}
+
+
+node[id = "𠳋"] {
+background-image: /resources/uniqueglyphs/𠳋.svg;
+}
+
+
+node[id = "𡗜"] {
+background-image: /resources/uniqueglyphs/𡗜.svg;
+}
+
+
+node[id = "𡨄"] {
+background-image: /resources/uniqueglyphs/𡨄.svg;
+}
+
+
+node[id = "𡩜"] {
+background-image: /resources/uniqueglyphs/𡩜.svg;
+}
+
+
+node[id = "𡰯"] {
+background-image: /resources/uniqueglyphs/𡰯.svg;
+}
+
+
+node[id = "𡱒"] {
+background-image: /resources/uniqueglyphs/𡱒.svg;
+}
+
+
+node[id = "𡱝"] {
+background-image: /resources/uniqueglyphs/𡱝.svg;
+}
+
+
+node[id = "𢀖"] {
+background-image: /resources/uniqueglyphs/𢀖.svg;
+}
+
+
+node[id = "𢆉"] {
+background-image: /resources/uniqueglyphs/𢆉.svg;
+}
+
+
+node[id = "𢆍"] {
+background-image: /resources/uniqueglyphs/𢆍.svg;
+}
+
+
+node[id = "𢆶"] {
+background-image: /resources/uniqueglyphs/𢆶.svg;
+}
+
+
+node[id = "𢎥"] {
+background-image: /resources/uniqueglyphs/𢎥.svg;
+}
+
+
+node[id = "𢼄"] {
+background-image: /resources/uniqueglyphs/𢼄.svg;
+}
+
+
+node[id = "𣈅"] {
+background-image: /resources/uniqueglyphs/𣈅.svg;
+}
+
+
+node[id = "𣥂"] {
+background-image: /resources/uniqueglyphs/𣥂.svg;
+}
+
+
+node[id = "𣶒"] {
+background-image: /resources/uniqueglyphs/𣶒.svg;
+}
+
+
+node[id = "𤋱"] {
+background-image: /resources/uniqueglyphs/𤋱.svg;
+}
+
+
+node[id = "𤰇"] {
+background-image: /resources/uniqueglyphs/𤰇.svg;
+}
+
+
+node[id = "𤰔"] {
+background-image: /resources/uniqueglyphs/𤰔.svg;
+}
+
+
+node[id = "𥃭"] {
+background-image: /resources/uniqueglyphs/𥃭.svg;
+}
+
+
+
+node[id = "𥝢"] {
+background-image: /resources/uniqueglyphs/𥝢.svg;
+}
+
+
+
+node[id = "𦍒"] {
+background-image: /resources/uniqueglyphs/𦍒.svg;
+}
+
+
+
+node[id = "𦣻"] {
+background-image: /resources/uniqueglyphs/𦣻.svg;
+}
+
+
+
+node[id = "𦥔"] {
+background-image: /resources/uniqueglyphs/𦥔.svg;
+}
+
+
+
+node[id = "𧈡"] {
+background-image: /resources/uniqueglyphs/𧈡.svg;
+}
+
+
+
+node[id = "𧈧"] {
+background-image: /resources/uniqueglyphs/𧈧.svg;
+}
+
+
+
+node[id = "𧰨"] {
+background-image: /resources/uniqueglyphs/𧰨.svg;
+}
+
+
+
+node[id = "𧴪"] {
+background-image: /resources/uniqueglyphs/𧴪.svg;
+}
+
+
+
+node[id = "𪜊"] {
+background-image: /resources/uniqueglyphs/𪜊.svg;
+}
+
+
+
+node[id = "𪞎"] {
+background-image: /resources/uniqueglyphs/𪞎.svg;
+}
+
+
+
+node[id = "𪟊"] {
+background-image: /resources/uniqueglyphs/𪟊.svg;
+}
+
+
+
+node[id = "𫩏"] {
+background-image: /resources/uniqueglyphs/𫩏.svg;
+}
+
+
+
+node[id = "𫶧"] {
+background-image: /resources/uniqueglyphs/𫶧.svg;
+}
+
+
+
+node[id = "𬀷"] {
+background-image: /resources/uniqueglyphs/𬀷.svg;
+}
+
+
+
+node[id = "𬎾"] {
+background-image: /resources/uniqueglyphs/𬎾.svg;
+}
+
+
+
+node[id = "𬐚"] {
+background-image: /resources/uniqueglyphs/𬐚.svg;
+}
+
+
+
+node[id = "具"] {
+background-image: /resources/uniqueglyphs/具.svg;
+}
+
+
+
+node[id = "冗"] {
+background-image: /resources/uniqueglyphs/冗.svg;
+}
+
+
+
+node[id = "叟"] {
+background-image: /resources/uniqueglyphs/叟.svg;
+}
+
+
+
+node[id = "直"] {
+background-image: /resources/uniqueglyphs/直.svg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 node[id = "A-GT-K06065"] {
