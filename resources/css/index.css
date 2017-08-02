@@ -309,11 +309,25 @@ bottom: 0;
 left: 0;
 }
 p {
-width: 100%;
+width: calc(100% - 20px);
 white-space: pre-wrap;
 font-size: 15px;
 margin: 0;
 padding: 0 10px 0 10px;
+}
+#kanshudolink { 
+width: 100%;
+font-family:  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", 'Rajdhani', sans-serif;
+white-space: pre-wrap;
+font-size: 15px;
+color: #2b99cf;
+/*color: #1a1a1a;*/
+margin: 0;
+padding: 0;
+}
+#kanshudolink:hover {
+color: #17516e;
+text-decoration: underline;
 }
 #resetbutton { 
 border: 0;
@@ -451,7 +465,7 @@ font-family: 'Rajdhani';
 padding: 10px 0 10px 0;
 width: 100%;
 height: 30px;
-color: #afafaf;
+color: #2b99cf;
 background-color: white;
 font-size: 20px;
 position: relative;
