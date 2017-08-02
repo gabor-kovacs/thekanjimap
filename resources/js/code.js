@@ -4,9 +4,19 @@ $(this).toggleClass('open');
 $(nav).toggleClass('open');
 });
 });
+function getParameterByName(name) {
+var url = window.location.href;
+name = name.replace(/[\[\]]/g, "\\$&");
+var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+results = regex.exec(url);
+if (!results) return null;
+if (!results[2]) return '';
+return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
 var recentlist = [];
 var radicals;
 var jukugos;
+var kanshudourl;
 highlightflag = false;
 function hilite() {
 if (!highlightflag) {
@@ -148,11 +158,18 @@ document.getElementById("highlightgrey").style.visibility = "visible";
 function UpdateKanjiInfo(trgt) {
 if (trgt.hasClass("unique")) {
 $('.KanjiLiteral').html(" ");
+kanshudourl = "";
+$("#kanshudolink").attr("href", kanshudourl);
+$('#kanshudolink').html('');
 }
 else {
 $('.KanjiLiteral').html(trgt.id());
+kanshudourl = "https://www.kanshudo.com/kanji/" + trgt.id();
+$("#kanshudolink").attr("href", kanshudourl);
+$('#kanshudolink').html('More info & mnemonic by Kanshūdō');
 }
 var hexcode = string_as_unicode_escape(trgt.id());
+
 var KanjiAnimationPath = "./resources/strokeanimations/" + hexcode + "_anim.svg"
 $("#KanjiAnimation").attr('src', KanjiAnimationPath);
 $("#KanjiAnimation").show()
@@ -340,21 +357,23 @@ SetDefaultStyle(allElements[i]);
 }
 cy.elements().removeClass('mainNode');
 resethilite();
-
-
-
 var newnode = cy.$(selectorsting);
-
-// var newnode = document.getElementById(selectorsting);
-
-
 if (newnode.isNode()) {
 UpdateKanjiInfo(newnode);
 if (newnode.hasClass("unique")) {  
 $('.KanjiLiteral').html(" ");
+
+kanshudourl = "";
+$("#kanshudolink").attr("href", kanshudourl);
+$('#kanshudolink').html('');
 }
 else {
 $('.KanjiLiteral').html(newnode.id());
+kanshudourl = "https://www.kanshudo.com/kanji/" + newnode.id();
+$("#kanshudolink").attr("href", kanshudourl);
+
+// $('#kanshudolink').html('Mnemonic for ' + newnode.id() + ' by Kanshūdō ');
+$('#kanshudolink').html('More info & mnemonic by Kanshūdō');
 }
 newnode.addClass('mainNode');
 var activenodes = newnode.predecessors().add(newnode).add(newnode.outgoers());
@@ -397,7 +416,12 @@ $('#radicalmeaning').html("");
 $('#radicalkun').html("");
 for (var r = 1 ; r < 11 ; r++){
 document.getElementById('jukugo' + r).innerHTML = "";
-}        
+} 
+
+kanshudourl = "";
+$("#kanshudolink").attr("href", kanshudourl);
+$('#kanshudolink').html('');
+
 }
 }
 }
@@ -469,13 +493,21 @@ document.getElementById("cy").style.visibility = "visible";
 var allElements = cy.elements();
 allElements.hide();
 resethilite();
-var starternode = cy.filter('node[id = "図"]');   
+var k = getParameterByName("k");
+if (!k) {k = "文"};
+var starternode = cy.filter('node[id = "'+k+'"]');
+if (starternode.length==0) {
+alert("No data for kanji "+k);
+k = "文";
+starternode = cy.filter('node[id = "'+k+'"]');
+}
 var initnodes = starternode.outgoers().add(starternode.predecessors()).add(starternode)
 starternode.addClass('mainNode');
 SetMainNodeStyle(starternode);
 UpdateKanjiInfo(starternode);
 initnodes.show();
-initnodes.layout({name: 'dagre', rankDir: 'LR', animate: true, animationDuration: 500});
+initnodes.layout({name: 'dagre', rankDir: 'LR', animate: false, animationDuration: 500});
+resetview();
 for (var i = 0; i < allElements.length; i++) {
 if (allElements[i].isNode()){ 
 if(allElements[i].data('unique') == 1){
@@ -488,7 +520,6 @@ $('#stroke').html("Stroke Count - " + starternode.data('stroke'));
 $('#grade').html("Grade - " + starternode.data('grade'));
 });
 cy.on('tap', 'node', function(e){
-
 document.getElementById("searchBar").value = "";  
 var allElements = cy.elements();
 resethilite();
