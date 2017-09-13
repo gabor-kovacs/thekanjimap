@@ -3,6 +3,9 @@ $('#nav-icon').click(function(){
 $(this).toggleClass('open');
 $(nav).toggleClass('open');
 });
+window.addEventListener('popstate', function() {
+location.reload();
+}, false);
 });
 function getParameterByName(name) {
 var url = window.location.href;
@@ -530,6 +533,8 @@ SetDefaultStyle(allElements[i]);
 }
 cy.elements().removeClass('mainNode');
 var newnode = e.cyTarget;
+window.history.pushState(null, 'The Kanji Map - '+e.cyTarget.data('id'), '/index.html?k='+e.cyTarget.data('id'));
+// alert(e.cyTarget.data('id'));
 newnode.addClass('mainNode');
 var activenodes = newnode.predecessors().add(newnode).add(newnode.outgoers());
 allElements.hide();
