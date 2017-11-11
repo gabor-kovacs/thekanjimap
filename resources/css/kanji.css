@@ -32,15 +32,15 @@ header {
 ul {
   list-style: none;
   padding-top: 7px;
-  padding-left: 0;
-      text-align: center;
+  /*padding-left: 0;*/
+  text-align: center;
   margin: 0px;
 }
  
 li {
  display: inline-block;
  float: left;
- padding: 5px;
+ padding: 10px;
  cursor: pointer;
 }
  
