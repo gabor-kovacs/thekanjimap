@@ -32,18 +32,28 @@ header {
 ul {
   list-style: none;
   padding-top: 7px;
+  padding-left: 0;
+      text-align: center;
   margin: 0px;
 }
  
 li {
  display: inline-block;
  float: left;
- padding: 10px
+ padding: 5px;
+ cursor: pointer;
 }
  
 a {
   font-family: 'Rajdhani', sans-serif;
   font-size: 26px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+span {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 12px;
   color: #1a1a1a;
   text-decoration: none;
 }
@@ -111,13 +121,96 @@ p {
   padding: 0;
 }
 
-#donatetext{
-  font-family: 'Rajdhani';
-  font-size: 22px;
-  margin: 30px 0 10px 0;
-  text-align: center;
-  text-decoration: none;
-  color: #2b99cf;
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-color: #ddd;
+    border-left: 1px solid #ddd;  
+    border-bottom: 1px solid #ddd;  
+    border-top: 1px solid #ddd;  
+}
+
+tr {
+  border-bottom: 1px solid #ddd;  
+  border-left: 1px solid #ddd;  
+  border-right: 1px solid #ddd;  
+}
+
+
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+th, td {
+    padding: 5px;
+  border-bottom: 1px solid #ddd;  
+  border-right: 1px solid #ddd;  
+  font-size: 14px;
+
+}
+
+th {
+  height: 20px;  
+  background: #afafaf;
+  color: white;
+}
+
+#search-grade {
+
+  margin-right: 10px;
+}
+
+#intro {
+  margin-bottom: 20px;
+}
+
+ #dynatable {
+  margin-top: 10px;
+ }
+
+
+.dynatable-sort-header {
+  font-size: 20px;
+  display: inline-block;
+  white-space:nowrap;
+}
+
+.dynatable-arrow {
+  display: inline;
+  white-space:nowrap;
+}
+
+#dynatable-record-count-dynatable {
+  display: none;
+}
+
+.dynatable-page-link {
+  font-size: 12px;
+}
+
+.dynatable-active-page {
+  background: #afafaf;
+  color: white;
+  border-radius: 12px;
+}
+
+
+#dynatable-search-dynatable {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.dynatable-per-page-label {
+  font-size: 16px;
+}
+
+.dynatable-per-page {
+  display: inline-block;
 }
 
 form {
@@ -139,7 +232,6 @@ footer {
   bottom:0;
   left:0;
 }
-
 
 @media only screen and (max-width : 680px) {
 

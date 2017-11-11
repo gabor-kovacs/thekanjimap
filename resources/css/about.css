@@ -42,6 +42,7 @@ text-decoration: none;
 }
 #donate:hover {border-bottom: 2px solid #2b99cf;}
 #home:hover {border-bottom: 2px solid #2b99cf;}
+#kanji:hover {border-bottom: 2px solid #2b99cf;}
 #about:hover {border-bottom: 2px solid #2b99cf;}
 #logo {
 float: left;
@@ -136,7 +137,7 @@ position:absolute;
 bottom:0;
 left:0;
 }
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 680px) {
 #container {
 width: calc(100% - 20px); 
 margin: 0px 10px 0px 10px;
