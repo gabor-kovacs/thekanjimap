@@ -1,4 +1,4 @@
-# thekanjimap
+# The Kanji Map
 
 This is the repository for The Kanji Map project (http://thekanjimap.com/)
 
