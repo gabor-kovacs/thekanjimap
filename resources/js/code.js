@@ -1026,3 +1026,8 @@ function showLightBulb() {
     $("#highlightbutton").hide();
   }
 }
+
+
+function closePromo(){
+  $("#desktoppromo").hide();
+}
